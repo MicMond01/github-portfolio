@@ -1,7 +1,11 @@
 import React from "react";
 import PrimaryBackground from "../components/PrimaryBackground";
-import backgroundImg from "../assets/images/backgroundsm.png";
+// import backgroundImg from "../assets/images/backgroundsm.png";
+import backgroundImg from "../assets/images/hero-bg2.webp";
 import butterfly from "../assets/images/butterfly.png";
+import NavigationBar from "../components/navigation/NavigationBar";
+import NavigationBarM from "../components/navigation/NavigationBarM";
+import Introduction from "../components/home/Introduction";
 
 const Home = () => {
   return (
@@ -10,15 +14,14 @@ const Home = () => {
       imageUrltwo={butterfly}
       altText="Background"
     >
-      <div className="container mx-auto p-4">
-        <h1 className="text-2xl font-bold">Welcome to My App</h1>
-        <p>This is the main content of your application.</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-          praesentium quia exercitationem consequatur assumenda impedit eius
-          nisi incidunt quam eos, delectus repudiandae. Placeat recusandae
-          dolore sed aspernatur, exercitationem ratione error.
-        </p>
+      <div className="box container mx-auto px-4 relative pt-4 md:pt-4 lg:pt-12 xl:container  md:px-4 ">
+        <div className="z-20">
+          <NavigationBar />
+          <NavigationBarM />
+        </div>
+        <div className="">
+          <Introduction />
+        </div>
       </div>
     </PrimaryBackground>
   );

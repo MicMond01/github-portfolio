@@ -2,11 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 768px) {
-  .containerStyle {
-    background-size: auto;
-  }
+* {
+  box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("./assets/mona-sans-d1bf285e9b9b.woff2");
+  font-weight: 200 300 400 500 600 700 800 900;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Mona Sans";
+  overflow-x: hidden;
+}
+
+/* img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+} */
 
 @keyframes bounce {
   0%,
@@ -18,6 +33,188 @@
   }
 }
 
+.box {
+  width: 100vw;
+}
+
 .butterfly {
-  animation: bounce 1s ease-in-out infinite;
+  animation: bounce 5s ease-in-out infinite;
+}
+
+.dropdown-menu {
+  display: none; /* Initially hide the dropdown menu */
+}
+
+.NavigationBar {
+}
+
+.home-campaign-lines-hero {
+  left: calc(50% - 14px);
+  width: 437px;
+  height: 643px;
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  .home-campaign-lines-hero {
+    left: calc(50% - 12px);
+    width: 290px;
+    height: 428px;
+    max-width: none;
+  }
+}
+
+.container-xl {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  width: 50%;
+  height: 50%;
+  top: 15rem;
+} */
+
+/* .hero-textArea {
+  width: 65rem;
+} */
+
+@media (min-width: 360px) {
+  .hero-textArea {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 375px) {
+  .hero-textArea {
+    width: 21rem;
+  }
+}
+
+@media (min-width: 550px) {
+  .hero-textArea {
+    width: 35rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-textArea {
+    width: 45rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-textArea {
+    width: 53rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .h0-mktg {
+    font-size: 72px !important;
+    line-height: 76px !important;
+  }
+}
+
+.h0-mktg {
+  font-feature-settings: "ss02" on, "ss01" on;
+  font-weight: 700 !important;
+  /* letter-spacing: -0.01em !important; */
+  color: white;
+  font-size: 48px !important;
+  line-height: 52px !important;
+  font-weight: 800 !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.03em;
+}
+
+@media (min-width: 1012px) {
+  .h0-mktg {
+    font-size: 96px !important;
+    line-height: 100px !important;
+  }
+}
+
+.f1-mktg {
+  font-size: 32px !important;
+  line-height: 44px !important;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .f1-mktg {
+    font-size: 28px !important;
+    line-height: 40px !important;
+    letter-spacing: -0.01em !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .f1-mktg {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 400;
+    letter-spacing: -0.01em !important;
+  }
+}
+
+.color-fg-muted {
+  color: rgba(235, 245, 255, 0.5) !important;
+}
+
+.home-campaign-glowing-icon,
+.home-campaign-glowing-icon-glow {
+  transform: translateZ(0);
+}
+
+.octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: #ffffff;
+}
+
+.home-campaign-signup-button {
+  background: linear-gradient(
+      180deg,
+      rgba(183, 52, 179, 0.15) 0%,
+      rgba(164, 46, 156, 0) 100%
+    ),
+    #6e40c9 !important;
+}
+
+.btn-mktg {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0.9rem 1.5rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  user-select: none;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    var(--color-mktg-btn-bg) !important;
+  border: 0;
+  border-radius: 0.375rem;
+  transition: box-shadow 0.2s, outline 0.2s ease;
+  appearance: none !important;
+}
+
+.btn-muted-mktg {
+  color: white !important;
+  background: none !important;
+  box-shadow: rgba(255, 255, 255, 0.25) 0 0 0 1px inset;
+}
+
+.home-campaign-enterprise {
+  box-shadow: #bc8cff 0 0 0 1px inset;
 }

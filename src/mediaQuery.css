@@ -1,0 +1,48 @@
+/* Use small image for screens up to 768px wide */
+@media (max-width: 768px) {
+  .screensize {
+    background-image: url("./assets/images/hero-bg3.webp");
+  }
+}
+
+/* Use large image for screens wider than 768px */
+@media (min-width: 769px) {
+  .screensize {
+    background-image: url("./assets/images/hero-bg2.webp");
+  }
+}
+
+@media (max-width: 1011px) {
+  .NavigationBarD {
+    display: none;
+  }
+
+  .NavigationBarM {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .containerStyle {
+    background-size: auto;
+  }
+}
+
+@media (min-width: 1011px) {
+  .NavigationBarD {
+    display: flex;
+  }
+
+  .NavigationBarM {
+    display: none;
+  }
+}
+
+/* <input
+          placeholder="Email address"
+          type="email"
+          name="user_email"
+          id="user_email"
+          autocomplete="off"
+          spellcheck="false"
+        /> */

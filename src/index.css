@@ -16,6 +16,7 @@ html {
   scroll-behavior: smooth;
   font-family: "Mona Sans";
   overflow-x: hidden;
+  width: 100vw;
 }
 
 /* img {
@@ -106,7 +107,7 @@ html {
 
 @media (min-width: 900px) {
   .hero-textArea {
-    width: 53rem;
+    width: 63rem;
   }
 }
 
@@ -217,4 +218,94 @@ html {
 
 .home-campaign-enterprise {
   box-shadow: #bc8cff 0 0 0 1px inset;
+}
+
+@media (min-width: 200px) {
+  .hero-imageArea {
+    left: 1%;
+  }
+
+  .hero-textArea {
+    left: 0%;
+  }
+}
+
+@media (min-width: 375px) {
+  .hero-imageArea {
+    left: 3%;
+  }
+
+  .hero-textArea {
+    left: 1%;
+  }
+}
+
+@media (min-width: 425px) {
+  .hero-imageArea {
+    left: 5%;
+  }
+
+  .hero-textArea {
+    left: 2%;
+  }
+}
+
+@media (min-width: 550px) {
+  .hero-imageArea {
+    left: 7%;
+  }
+
+  .hero-textArea {
+    left: 3%;
+  }
+}
+
+@media (min-width: 650px) {
+  .hero-imageArea {
+    left: 8%;
+  }
+
+  .hero-textArea {
+    left: 4%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-imageArea {
+    left: 10%;
+  }
+
+  .hero-textArea {
+    left: 6%;
+  }
+}
+
+@media (min-width: 868px) {
+  .hero-imageArea {
+    left: 12%;
+  }
+
+  .hero-textArea {
+    left: 8%;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-imageArea {
+    left: 15%;
+  }
+
+  .hero-textArea {
+    left: 10%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero-imageArea {
+    left: 17%;
+  }
+
+  .hero-textArea {
+    left: 12%;
+  }
 }

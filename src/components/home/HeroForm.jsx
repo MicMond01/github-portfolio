@@ -17,6 +17,7 @@ const HeroForm = () => {
         autoComplete="off"
       >
         <TextField
+          className=" w-[20rem] md:w-full"
           hiddenLabel
           id="filled-hidden-label-normal"
           variant="filled"
@@ -24,7 +25,6 @@ const HeroForm = () => {
           sx={{
             backgroundColor: "white",
             borderRadius: "0.357rem 0 0 0.357rem",
-            width: "100%",
           }}
           InputProps={{ disableUnderline: true }}
           size="2rem"
@@ -35,9 +35,9 @@ const HeroForm = () => {
           color: "white",
           borderRadius: "0 0.357rem  0.357rem 0",
         }}
-        className="home-campaign-signup-button  py-4 md:w-full w-auto mb-3 mb-md-0 rounded-md-left-0 btn-signup-mktg"
+        className="home-campaign-signup-button  py-4 md:w-full w-[12rem] mb-3 mb-md-0 rounded-md-left-0 btn-signup-mktg"
       >
-        Sign up for Githuub
+        Sign up for Github
       </Button>
     </div>
   );

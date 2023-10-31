@@ -6,6 +6,7 @@ import butterfly from "../assets/images/butterfly.png";
 import NavigationBar from "../components/navigation/NavigationBar";
 import NavigationBarM from "../components/navigation/NavigationBarM";
 import Introduction from "../components/home/Introduction";
+import Copilot from "../components/home/Copilot";
 
 const Home = () => {
   return (
@@ -19,9 +20,8 @@ const Home = () => {
           <NavigationBar />
           <NavigationBarM />
         </div>
-        <div className="">
-          <Introduction />
-        </div>
+        <Copilot />
+        {/* <Introduction /> */}
       </div>
     </PrimaryBackground>
   );

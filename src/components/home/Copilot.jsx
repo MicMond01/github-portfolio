@@ -8,8 +8,8 @@ import { Button, Divider } from "@mui/material";
 
 const Copilot = () => {
   return (
-    <div className="flex relative lg:absolute ">
-      <div className="flex flex-col col-[8.3%] pointer-events-none md:absolute relative md:left-0  left-6 top-20 md:-top-10">
+    <div className="flex columns-2 ">
+      <div className="hero-imageArea flex  pointer-events-none w-[10%]  relative   top-20 md:-top-10">
         <img
           src={frameone}
           alt="frame"
@@ -31,7 +31,7 @@ const Copilot = () => {
               <path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"></path>
             </svg>
             <span
-              class="gloww absolute left-0 top-0 h-full w-full home-campaign-glowing-icon-glow -z-10"
+              class="gloww relative left-0 top-0 h-full w-full home-campaign-glowing-icon-glow -z-10"
               style={{
                 backgroundColor: "#dd7df7",
                 filter: "blur(17px)",
@@ -42,7 +42,7 @@ const Copilot = () => {
         ;
       </div>
 
-      <div className="hero-textArea text-left absolute  left-16 md:left-2 top-8 pt-32 md:mt-10 mt-56 pl-8 ">
+      <div className="hero-textArea relative text-left z-10    top-8 pt-32 md:mt-10 mt-56  ">
         <div className="flex items-center justify-startborder-solid border-[#424B5B] border-2 max-w-[475px] rounded-[100px] px-[16px] py-[12px]  mb-6 bg-gradient-to-r from-[rgba(1,1,1,0.6)] via-[rgba(1,1,1,0.461139)] to-[rgba(1,1,1,0)] ">
           <img
             src={eyebrow}

@@ -81,42 +81,7 @@ html {
   width: 65rem;
 } */
 
-@media (min-width: 360px) {
-  .hero-textArea {
-    width: 18rem;
-  }
-}
 
-@media (min-width: 375px) {
-  .hero-textArea {
-    width: 21rem;
-  }
-}
-
-@media (min-width: 550px) {
-  .hero-textArea {
-    width: 35rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero-textArea {
-    width: 45rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .hero-textArea {
-    width: 63rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .h0-mktg {
-    font-size: 72px !important;
-    line-height: 76px !important;
-  }
-}
 
 .h0-mktg {
   font-feature-settings: "ss02" on, "ss01" on;
@@ -130,34 +95,10 @@ html {
   letter-spacing: -0.03em;
 }
 
-@media (min-width: 1012px) {
-  .h0-mktg {
-    font-size: 96px !important;
-    line-height: 100px !important;
-  }
-}
-
 .f1-mktg {
   font-size: 32px !important;
   line-height: 44px !important;
   font-weight: 400;
-}
-
-@media (max-width: 768px) {
-  .f1-mktg {
-    font-size: 28px !important;
-    line-height: 40px !important;
-    letter-spacing: -0.01em !important;
-  }
-}
-
-@media (max-width: 550px) {
-  .f1-mktg {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-weight: 400;
-    letter-spacing: -0.01em !important;
-  }
 }
 
 .color-fg-muted {
@@ -258,6 +199,13 @@ html {
   .hero-textArea {
     left: 3%;
   }
+
+  .f1-mktg {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 400;
+    letter-spacing: -0.01em !important;
+  }
 }
 
 @media (min-width: 650px) {
@@ -277,6 +225,17 @@ html {
 
   .hero-textArea {
     left: 6%;
+  }
+
+  .h0-mktg {
+    font-size: 72px !important;
+    line-height: 76px !important;
+  }
+
+  .f1-mktg {
+    font-size: 28px !important;
+    line-height: 40px !important;
+    letter-spacing: -0.01em !important;
   }
 }
 
@@ -301,11 +260,48 @@ html {
 }
 
 @media (min-width: 1000px) {
+  .h0-mktg {
+    font-size: 96px !important;
+    line-height: 100px !important;
+  }
+
   .hero-imageArea {
     left: 17%;
   }
 
   .hero-textArea {
     left: 12%;
+  }
+}
+
+
+
+@media (min-width: 360px) {
+  .hero-textArea {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 375px) {
+  .hero-textArea {
+    width: 21rem;
+  }
+}
+
+@media (min-width: 550px) {
+  .hero-textArea {
+    width: 35rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-textArea {
+    width: 45rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-textArea {
+    width: 63rem;
   }
 }

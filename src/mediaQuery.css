@@ -12,7 +12,17 @@
   }
 }
 
-@media (max-width: 1011px) {
+/* Default styles for larger screens */
+.NavigationBarD {
+  display: flex;
+}
+
+.NavigationBarM {
+  display: none;
+}
+
+/* Override styles for screens with a minimum width of 1000px or less */
+@media (min-width: 0px) and (max-width: 1000px) {
   .NavigationBarD {
     display: none;
   }
@@ -28,13 +38,9 @@
   }
 }
 
-@media (min-width: 1011px) {
-  .NavigationBarD {
-    display: flex;
-  }
-
-  .NavigationBarM {
-    display: none;
+@media (max-width: 768px) {
+  .containerStyle {
+    background-size: auto;
   }
 }
 

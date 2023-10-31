@@ -73,7 +73,7 @@ const Copilot = () => {
           </p>
         </div>
 
-        <div className="hero-form flex md:block  ">
+        <div className="hero-form-container ">
           <HeroForm />
 
           <Divider
@@ -84,7 +84,7 @@ const Copilot = () => {
 
           <Button
             sx={{ color: "white", borderRadius: "0.357rem " }}
-            className="home-campaign-enterprise columns-4  py-4 mb-md-0 md:w-[100%] lg:w-[25%] w-[35%]   btn-muted-mktg home-campaign-enterprise "
+            className="home-campaign-enterprise py-4 h-[3.5rem] btn-muted-mktg "
           >
             State a free enterprise trial
           </Button>

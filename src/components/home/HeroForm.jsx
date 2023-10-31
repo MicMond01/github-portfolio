@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroForm = () => {
   return (
-    <div className="flex md:block ">
+    <div className="hero-form  ">
       <Stack
         component="form"
         sx={
@@ -11,13 +11,13 @@ const HeroForm = () => {
             // width: "25rem",
           }
         }
-        className="w-[60%] md:w-[100%]"
+        className="w-[100%]"
         spacing={2}
         noValidate
         autoComplete="off"
       >
         <TextField
-          className=" w-[20rem] md:w-full"
+          className="hero-form-input "
           hiddenLabel
           id="filled-hidden-label-normal"
           variant="filled"
@@ -35,7 +35,7 @@ const HeroForm = () => {
           color: "white",
           borderRadius: "0 0.357rem  0.357rem 0",
         }}
-        className="home-campaign-signup-button  py-4 md:w-full w-[12rem] mb-3 mb-md-0 rounded-md-left-0 btn-signup-mktg"
+        className="home-campaign-signup-button h-[3.5rem] py-4  mb-3 mb-md-0 rounded-md-left-0 btn-signup-mktg"
       >
         Sign up for Github
       </Button>

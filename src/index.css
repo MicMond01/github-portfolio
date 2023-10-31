@@ -46,9 +46,6 @@ html {
   display: none; /* Initially hide the dropdown menu */
 }
 
-.NavigationBar {
-}
-
 .home-campaign-lines-hero {
   left: calc(50% - 14px);
   width: 437px;
@@ -81,8 +78,6 @@ html {
   width: 65rem;
 } */
 
-
-
 .h0-mktg {
   font-feature-settings: "ss02" on, "ss01" on;
   font-weight: 700 !important;
@@ -99,6 +94,7 @@ html {
   font-size: 32px !important;
   line-height: 44px !important;
   font-weight: 400;
+  width: 80%;
 }
 
 .color-fg-muted {
@@ -117,6 +113,10 @@ html {
   fill: #ffffff;
 }
 
+.hero-form-container {
+  display: block;
+}
+
 .home-campaign-signup-button {
   background: linear-gradient(
       180deg,
@@ -124,6 +124,11 @@ html {
       rgba(164, 46, 156, 0) 100%
     ),
     #6e40c9 !important;
+  width: 100%;
+}
+
+.home-campaign-enterprise {
+  width: 100%;
 }
 
 .btn-mktg {
@@ -161,6 +166,18 @@ html {
   box-shadow: #bc8cff 0 0 0 1px inset;
 }
 
+/* Default styles for smaller screens */
+
+.hero-form {
+  display: block;
+}
+
+.hero-form-input {
+  width: 100%;
+}
+
+/* Override styles for screens with a minimum width of 1000px or less */
+
 @media (min-width: 200px) {
   .hero-imageArea {
     left: 1%;
@@ -168,6 +185,7 @@ html {
 
   .hero-textArea {
     left: 0%;
+    width: 85%;
   }
 }
 
@@ -225,6 +243,7 @@ html {
 
   .hero-textArea {
     left: 6%;
+    width: 80%;
   }
 
   .h0-mktg {
@@ -236,16 +255,35 @@ html {
     font-size: 28px !important;
     line-height: 40px !important;
     letter-spacing: -0.01em !important;
+    /* width: 85%; */
   }
 }
 
 @media (min-width: 868px) {
+  .hero-form-container {
+    display: grid;
+    grid-template-columns: 55% 5% 40%;
+  }
+
+  .hero-form {
+    display: flex;
+    width: 100%;
+  }
+
   .hero-imageArea {
     left: 12%;
   }
 
   .hero-textArea {
     left: 8%;
+  }
+
+  .hero-form-input {
+    width: 100%;
+  }
+
+  .home-campaign-signup-button {
+    width: 60%;
   }
 }
 
@@ -256,6 +294,11 @@ html {
 
   .hero-textArea {
     left: 10%;
+    width: 70%;
+  }
+
+  .f1-mktg {
+    width: 65%;
   }
 }
 
@@ -271,37 +314,6 @@ html {
 
   .hero-textArea {
     left: 12%;
-  }
-}
-
-
-
-@media (min-width: 360px) {
-  .hero-textArea {
-    width: 18rem;
-  }
-}
-
-@media (min-width: 375px) {
-  .hero-textArea {
-    width: 21rem;
-  }
-}
-
-@media (min-width: 550px) {
-  .hero-textArea {
-    width: 35rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero-textArea {
-    width: 45rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .hero-textArea {
-    width: 63rem;
+    /* width: 50%; */
   }
 }

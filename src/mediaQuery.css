@@ -21,6 +21,7 @@
   display: none;
 }
 
+
 /* Override styles for screens with a minimum width of 1000px or less */
 @media (min-width: 0px) and (max-width: 1000px) {
   .NavigationBarD {

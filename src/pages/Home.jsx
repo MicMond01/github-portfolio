@@ -5,8 +5,9 @@ import backgroundImg from "../assets/images/hero-bg2.webp";
 import butterfly from "../assets/images/butterfly.png";
 import NavigationBar from "../components/navigation/NavigationBar";
 import NavigationBarM from "../components/navigation/NavigationBarM";
-import Introduction from "../components/home/Introduction";
+// import Introduction from "../components/home/Introduction";
 import Copilot from "../components/home/Copilot";
+import Productivity from "../components/home/Productivity";
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
           <NavigationBarM />
         </div>
         <Copilot />
-        {/* <Introduction /> */}
+        <Productivity />
       </div>
     </PrimaryBackground>
   );

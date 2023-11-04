@@ -24,7 +24,6 @@ const HeroForm = () => {
           placeholder="Email address"
           sx={{
             backgroundColor: "white",
-            borderRadius: "0.357rem 0 0 0.357rem",
           }}
           InputProps={{ disableUnderline: true }}
           size="2rem"
@@ -33,9 +32,12 @@ const HeroForm = () => {
       <Button
         sx={{
           color: "white",
-          borderRadius: "0 0.357rem  0.357rem 0",
+          margin: "1rem 0", // Default margin
+          "@media (min-width: 868px)": {
+            margin: "0", // Margin for screens with a minimum width of 868px or less
+          },
         }}
-        className="home-campaign-signup-button h-[3.5rem] py-4  mb-3 mb-md-0 rounded-md-left-0 btn-signup-mktg"
+        className="home-campaign-signup-button h-[3.5rem] py-4  btn-signup-mktg"
       >
         Sign up for Github
       </Button>

@@ -1,12 +1,12 @@
 /* Use small image for screens up to 768px wide */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .screensize {
     background-image: url("./assets/images/hero-bg3.webp");
   }
 }
 
 /* Use large image for screens wider than 768px */
-@media (min-width: 769px) {
+@media (min-width: 868px) {
   .screensize {
     background-image: url("./assets/images/hero-bg2.webp");
   }
@@ -20,7 +20,6 @@
 .NavigationBarM {
   display: none;
 }
-
 
 /* Override styles for screens with a minimum width of 1000px or less */
 @media (min-width: 0px) and (max-width: 1000px) {

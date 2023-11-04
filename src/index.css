@@ -91,14 +91,18 @@ html {
 }
 
 .f1-mktg {
-  font-size: 32px !important;
+  font-size: 24px !important;
   line-height: 44px !important;
   font-weight: 400;
-  width: 80%;
+  /* width: 80%; */
 }
 
 .color-fg-muted {
   color: rgba(235, 245, 255, 0.5) !important;
+}
+
+.home-campaign-glowing-icon {
+  /* margin: 0 auto; */
 }
 
 .home-campaign-glowing-icon,
@@ -117,6 +121,10 @@ html {
   display: block;
 }
 
+.hero-divider {
+  display: none;
+}
+
 .home-campaign-signup-button {
   background: linear-gradient(
       180deg,
@@ -125,6 +133,10 @@ html {
     ),
     #6e40c9 !important;
   width: 100%;
+
+  border-radius: 0.357rem;
+  margin: 10rem 0;
+  margin-top: 1rem;
 }
 
 .home-campaign-enterprise {
@@ -174,6 +186,72 @@ html {
 
 .hero-form-input {
   width: 100%;
+  border-radius: 0.357rem;
+}
+
+.color-fg-subtle {
+  color: #6e7681;
+}
+
+.f4-mktg {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-weight: 400;
+}
+
+.trusted-hero-img {
+  width: 100%;
+}
+
+.trusted-hero-divider1 {
+  width: 100%;
+}
+
+.trusted-hero-divider2 {
+  display: none;
+  width: 100%;
+}
+
+.trusted-hero-divider3 {
+  width: 100%;
+  display: block;
+}
+
+.build-in-scale-top.build-in-animate {
+  transform: scaleY(1);
+}
+
+.build-in-scale-top {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: scaleY(0);
+  transform-origin: 0 0;
+}
+
+.build-in-slideX-left.build-in-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.build-in-slideX-left {
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateX(-15px);
+}
+
+.h5-mktg {
+  font-size: 20px !important;
+  line-height: 24px !important;
+}
+
+.h3-mktg {
+  font-size: 28px !important;
+  line-height: 32px !important;
+  /* font-weight: 800 !important; */
+}
+
+.text-accent-primary {
+  color: #7ee787;
 }
 
 /* Override styles for screens with a minimum width of 1000px or less */
@@ -184,7 +262,7 @@ html {
   }
 
   .hero-textArea {
-    left: 0%;
+    left: 6%;
     width: 85%;
   }
 }
@@ -195,7 +273,7 @@ html {
   }
 
   .hero-textArea {
-    left: 1%;
+    left: 7%;
   }
 }
 
@@ -205,7 +283,7 @@ html {
   }
 
   .hero-textArea {
-    left: 2%;
+    left: 8%;
   }
 }
 
@@ -215,7 +293,7 @@ html {
   }
 
   .hero-textArea {
-    left: 3%;
+    left: 9%;
   }
 
   .f1-mktg {
@@ -223,6 +301,14 @@ html {
     line-height: 32px !important;
     font-weight: 400;
     letter-spacing: -0.01em !important;
+  }
+
+  .trusted-hero-divider2 {
+    display: block;
+  }
+
+  .trusted-hero-divider3 {
+    display: none;
   }
 }
 
@@ -232,7 +318,11 @@ html {
   }
 
   .hero-textArea {
-    left: 4%;
+    left: 10%;
+  }
+
+  .trusted-hero-divider1 {
+    display: none;
   }
 }
 
@@ -242,7 +332,7 @@ html {
   }
 
   .hero-textArea {
-    left: 6%;
+    left: 12%;
     width: 80%;
   }
 
@@ -257,12 +347,22 @@ html {
     letter-spacing: -0.01em !important;
     /* width: 85%; */
   }
+
+  .trusted-hero-divider2 {
+    display: none;
+  }
+
+  .h3-mktg {
+    font-size: 40px !important;
+    line-height: 44px !important;
+  }
 }
 
 @media (min-width: 868px) {
   .hero-form-container {
     display: grid;
     grid-template-columns: 55% 5% 40%;
+    width: 100%;
   }
 
   .hero-form {
@@ -270,20 +370,44 @@ html {
     width: 100%;
   }
 
+  .hero-divider {
+    display: block;
+  }
+
   .hero-imageArea {
     left: 12%;
   }
 
   .hero-textArea {
-    left: 8%;
+    left: 14%;
   }
 
   .hero-form-input {
     width: 100%;
+    border-radius: 0.357rem 0 0 0.357rem;
   }
 
   .home-campaign-signup-button {
     width: 60%;
+    border-radius: 0 0.357rem 0.357rem 0;
+  }
+
+  .trusted-hero {
+    margin: 128px 0;
+  }
+
+  .trusted-hero-img {
+    width: 91%;
+  }
+
+  .productivity-textArea {
+    margin-bottom: 96px;
+  }
+
+  .h5-mktg {
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-weight: 800 !important;
   }
 }
 
@@ -293,7 +417,7 @@ html {
   }
 
   .hero-textArea {
-    left: 10%;
+    left: 16%;
     width: 70%;
   }
 
@@ -303,6 +427,10 @@ html {
 }
 
 @media (min-width: 1000px) {
+  .hero-form-container {
+    width: 100%;
+  }
+
   .h0-mktg {
     font-size: 96px !important;
     line-height: 100px !important;
@@ -313,7 +441,24 @@ html {
   }
 
   .hero-textArea {
-    left: 12%;
+    /* left: 12%; */
+    left: 18%;
     /* width: 50%; */
+  }
+
+  .f1-mktg {
+    font-size: 32px;
+  }
+
+  .h3-mktg {
+    font-size: 48px !important;
+    line-height: 52px !important;
+    letter-spacing: -0.03em !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-form-container {
+    width: 70%;
   }
 }

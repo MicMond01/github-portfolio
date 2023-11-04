@@ -5,19 +5,20 @@ import frameone from "../../assets/images/Frame01.png";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import HeroForm from "./HeroForm";
 import { Button, Divider } from "@mui/material";
+import TrustedOrgs from "./TrustedOrgs";
 
 const Copilot = () => {
   return (
     <div className="flex columns-2 ">
-      <div className="hero-imageArea flex  pointer-events-none w-[10%]  relative   top-20 md:-top-10">
+      <div className="hero-imageArea flex flex-col  pointer-events-none w-[4.33%]  relative   top-20 md:-top-10">
         <img
           src={frameone}
           alt="frame"
-          className="home-campaign-lines-hero  md:ml-1"
+          className="home-campaign-lines-hero mx-auto "
           // height="637"
           // width="437"
         />
-        <div class=" my-3 home-campaign-glowing-icon">
+        <div class=" my-4 home-campaign-glowing-icon ">
           <div class="relative inline-block z-1">
             <svg
               aria-hidden="true"
@@ -31,7 +32,7 @@ const Copilot = () => {
               <path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"></path>
             </svg>
             <span
-              class="gloww relative left-0 top-0 h-full w-full home-campaign-glowing-icon-glow -z-10"
+              class="gloww absolute left-0 top-0 h-full w-full home-campaign-glowing-icon-glow -z-10"
               style={{
                 backgroundColor: "#dd7df7",
                 filter: "blur(17px)",
@@ -39,7 +40,14 @@ const Copilot = () => {
             ></span>
           </div>
         </div>
-        ;
+
+        <div
+          className="home-campaign-git-line h-full w-[2px] ml-3 "
+          style={{
+            background:
+              "linear-gradient(#d2a8ff, #a371f7 10%, #196c2e 70%, #2ea043 80%, #56d364)",
+          }}
+        ></div>
       </div>
 
       <div className="hero-textArea relative text-left z-10    top-8 pt-32 md:mt-10 mt-56  ">
@@ -80,6 +88,7 @@ const Copilot = () => {
             orientation="vertical"
             flexItem
             sx={{ borderColor: "#dd7df7", marginX: "1.5rem" }}
+            className="hero-divider"
           ></Divider>
 
           <Button
@@ -89,6 +98,8 @@ const Copilot = () => {
             State a free enterprise trial
           </Button>
         </div>
+
+        <TrustedOrgs />
       </div>
     </div>
   );

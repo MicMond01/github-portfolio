@@ -49,14 +49,14 @@ const Productivity = () => {
           <div class="col-11 col-lg-9 ml-2 ml-md-0 mb-6 mb-md-10">
             <div className="h2-animation-container">
               <h2
-                class="h5-mktg mb-6 text-white js-build-in-item build-in-slideX-left build-in-animate font-medium"
+                class="h5-mktg mb-6 text-white  build-in-slideX-left build-in-animate font-medium"
                 style={{ transitionDelay: "200ms" }}
               >
                 Productivity
               </h2>
             </div>
             <h3
-              class="h3-mktg mb-6 text-white font-medium js-build-in-item "
+              class="h3-mktg mb-6 text-white font-medium "
               style={{ transitionDelay: "300ms" }}
             >
               <span class="text-accent-primary ">

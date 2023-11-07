@@ -1,0 +1,29 @@
+.code-editor-line-mktg {
+  border-left: 2px solid #0d1117;
+}
+
+.pl-ent {
+  color: #7ee787;
+}
+
+.pl-e,
+.pl-en {
+  color: #d2a8ff;
+}
+
+.pl-s,
+.pl-pds,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sre,
+.pl-sr .pl-sra {
+  color: #a5d6ff;
+}
+
+.box-shadow-active-border-inverse-mktg {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5), 0 70px 65px rgba(0, 0, 0, 0.18),
+    0 30px 30px rgba(0, 0, 0, 0.14), 0 15px 15px rgba(0, 0, 0, 0.12),
+    0 10px 8px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.08),
+    0 2px 2px rgba(0, 0, 0, 0.06) !important;
+}

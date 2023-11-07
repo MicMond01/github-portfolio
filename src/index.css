@@ -19,6 +19,19 @@ html {
   width: 100vw;
 }
 
+.color-bg-default {
+  background-color: #0d1117;
+}
+
+/* Default styles for larger screens */
+.NavigationBarD {
+  display: flex;
+}
+
+.NavigationBarM {
+  display: none;
+}
+
 /* img {
   overflow-clip-margin: content-box;
   overflow: clip;
@@ -97,10 +110,6 @@ html {
   /* width: 80%; */
 }
 
-.color-fg-muted {
-  color: rgba(235, 245, 255, 0.5) !important;
-}
-
 .home-campaign-glowing-icon {
   /* margin: 0 auto; */
 }
@@ -115,6 +124,10 @@ html {
   overflow: visible !important;
   vertical-align: text-bottom;
   fill: #ffffff;
+}
+
+.color-fg-muted {
+  color: #ebf5ff80 !important;
 }
 
 .hero-form-container {

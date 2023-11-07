@@ -8,6 +8,7 @@ import NavigationBarM from "../components/navigation/NavigationBarM";
 // import Introduction from "../components/home/Introduction";
 import Copilot from "../components/home/Copilot";
 import Productivity from "../components/home/Productivity";
+import CodeEditor from "../components/home/editor/CodeEditor";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         </div>
         <Copilot />
         <Productivity />
+        <CodeEditor />
       </div>
     </PrimaryBackground>
   );

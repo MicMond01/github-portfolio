@@ -130,6 +130,10 @@ html {
   color: #ebf5ff80 !important;
 }
 
+.color-fg-accent {
+  color: #2f81f7 !important;
+}
+
 .hero-form-container {
   display: block;
 }

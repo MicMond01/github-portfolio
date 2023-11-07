@@ -18,8 +18,8 @@ const Copilot = () => {
           // height="637"
           // width="437"
         />
-        <div class=" my-4 home-campaign-glowing-icon ">
-          <div class="relative inline-block z-1">
+        <div className=" my-4 home-campaign-glowing-icon ">
+          <div className="relative inline-block z-1">
             <svg
               aria-hidden="true"
               height="24"
@@ -27,12 +27,12 @@ const Copilot = () => {
               version="1.1"
               width="24"
               data-view-component="true"
-              class="octicon octicon-code "
+              className="octicon octicon-code "
             >
               <path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"></path>
             </svg>
             <span
-              class="gloww absolute left-0 top-0 h-full w-full home-campaign-glowing-icon-glow -z-10"
+              className="gloww absolute left-0 top-0 h-full w-full home-campaign-glowing-icon-glow -z-10"
               style={{
                 backgroundColor: "#dd7df7",
                 filter: "blur(17px)",

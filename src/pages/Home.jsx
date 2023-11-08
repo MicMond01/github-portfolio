@@ -17,14 +17,16 @@ const Home = () => {
       imageUrltwo={butterfly}
       altText="Background"
     >
-      <div className="box container mx-auto px-4 relative pt-4 md:pt-4 lg:pt-12 xl:container  md:px-4 ">
+      <div className="box container  mx-auto px-4 relative pt-4 md:pt-4 lg:pt-12 xl:container  md:px-4 ">
         <div className="z-20">
           <NavigationBar />
           <NavigationBarM />
         </div>
-        <Copilot />
-        <Productivity />
-        <CodeEditor />
+        <div className="container-xl">
+          <Copilot />
+          <Productivity />
+          <CodeEditor />
+        </div>
       </div>
     </PrimaryBackground>
   );

@@ -11,7 +11,7 @@ const Productivity = () => {
   return (
     <div className="bg-[#0D1117]">
       <div className="flex columns-2 ">
-        <div className="hero-imageArea flex flex-col  pointer-events-none w-[4.33%]  relative   top-20 md:-top-10">
+        <div className=" flex flex-col  pointer-events-none w-[8.33%]  relative   top-20 md:-top-10 items-center">
           <div className=" my-4 home-campaign-glowing-icon ">
             <div className="relative inline-block z-1">
               <svg
@@ -37,7 +37,7 @@ const Productivity = () => {
           </div>
 
           <div
-            className="home-campaign-git-line h-full w-[2px] ml-3 build-in-scale-top build-in-animate rounded-md"
+            className="home-campaign-git-line h-full w-[2px]  build-in-scale-top build-in-animate rounded-md"
             style={{
               background: "linear-gradient(#56d364, #2ea043, #0D1117)",
               transitionDelay: "500ms",
@@ -45,7 +45,7 @@ const Productivity = () => {
           ></div>
         </div>
 
-        <div className="hero-textArea productivity-textArea relative mb-10 text-left ">
+        <div className=" productivity-textArea relative mb-10 text-left w-[91.6%]">
           <div className="col-11 col-lg-9 ml-2 ml-md-0 mb-6 mb-md-10">
             <div className="h2-animation-container">
               <h2

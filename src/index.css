@@ -17,6 +17,83 @@ html {
   font-family: "Mona Sans";
   overflow-x: hidden;
   width: 100vw;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.home-campaign {
+  background-color: #0d1117;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Buttons */
+::-webkit-scrollbar-button:single-button {
+  background-color: #bbbbbb;
+  display: block;
+  border-style: solid;
+  height: 13px;
+  width: 16px;
+}
+/* Up */
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #555555 transparent;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #777777 transparent;
+}
+/* Down */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 8px 8px 0 8px;
+  border-color: #555555 transparent transparent transparent;
+}
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #777777 transparent transparent transparent;
+}
+
+.EditorTab {
+  /* Style the horizontal scrollbar */
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #888;
+
+  /* Other styles as needed */
+}
+
+/* Track (the background of the scrollbar) */
+.EditorTab::-webkit-scrollbar-track {
+  background: #2b2929;
+}
+
+/* Handle (the draggable part of the scrollbar) */
+.EditorTab::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.EditorTab::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .color-bg-default {
@@ -478,4 +555,11 @@ html {
   .hero-form-container {
     width: 70%;
   }
+}
+
+.box-shadow-active-border-inverse-mktg {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5), 0 70px 65px rgba(0, 0, 0, 0.18),
+    0 30px 30px rgba(0, 0, 0, 0.14), 0 15px 15px rgba(0, 0, 0, 0.12),
+    0 10px 8px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.08),
+    0 2px 2px rgba(0, 0, 0, 0.06) !important;
 }

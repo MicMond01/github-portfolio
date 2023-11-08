@@ -14,7 +14,7 @@ const ConsoleTab = () => {
         data-type-row-delay="50"
       >
         <div
-          className="flex-nowrap  js-type-row row-is-visible"
+          className="whitespace-nowrap  js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:36</span>]
@@ -25,7 +25,7 @@ const ConsoleTab = () => {
           ' ...
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:36</span>]
@@ -37,7 +37,7 @@ const ConsoleTab = () => {
           <span className="color-fg-done">248 ms</span>
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:36</span>]
@@ -48,7 +48,7 @@ const ConsoleTab = () => {
           ' ...
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:36</span>]
@@ -60,7 +60,7 @@ const ConsoleTab = () => {
           <span className="color-fg-done">384 ms</span>
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:36</span>]
@@ -71,7 +71,7 @@ const ConsoleTab = () => {
           ' ...
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:40</span>]
@@ -83,7 +83,7 @@ const ConsoleTab = () => {
           <span className="color-fg-done">4.66 s</span>
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:40</span>]
@@ -94,7 +94,7 @@ const ConsoleTab = () => {
           ' ...
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:43</span>]
@@ -103,7 +103,7 @@ const ConsoleTab = () => {
           <span className="color-fg-done">7.33 s</span>
         </div>
         <div
-          className="flex-nowrap js-type-row row-is-visible"
+          className="whitespace-nowrap js-type-row row-is-visible"
           //   style="visibility: visible;"
         >
           [<span className="color-fg-subtle">09:43:43</span>]

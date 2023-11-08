@@ -3,7 +3,7 @@ import "./editor.css";
 
 const EditorTab = () => {
   return (
-    <div className="color-bg-default p-6 text-base font-mono border-b border-solid border-[#30363d]">
+    <div className=" color-bg-default p-6 text-base font-mono border-b border-solid border-[#30363d]">
       <div className="flex ">
         <div className="color-fg-subtle text-right select-none">
           <div className="pr-2">1</div>
@@ -20,7 +20,7 @@ const EditorTab = () => {
           <div className="pr-2">12</div>
         </div>
 
-        <div className="flex-1 overflow-x-auto" ex="0">
+        <div className="EditorTab flex-1 overflow-x-auto" ex="0">
           <pre className="text-base">
             <span className="code-editor-line-mktg inline-block js-type-letters text-white">
               &lt;<span className="pl-ent">div</span>

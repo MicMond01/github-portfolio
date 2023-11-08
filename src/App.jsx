@@ -25,7 +25,7 @@ function App() {
   //   // Cleanup when unmounting the component
   // }, []);
   return (
-    <div className="App">
+    <div className="App ">
       <ThemeProvider theme={customTheme}>
         <AppRouters />
       </ThemeProvider>

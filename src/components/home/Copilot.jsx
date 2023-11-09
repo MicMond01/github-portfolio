@@ -10,7 +10,7 @@ import TrustedOrgs from "./TrustedOrgs";
 const Copilot = () => {
   return (
     <div className="flex columns-2 ">
-      <div className=" flex flex-col items-center  pointer-events-none w-[8.33%]  relative   top-20 md:-top-10">
+      <div className=" flex flex-col items-center  pointer-events-none w-[8.33%]  relative   top-16 md:-top-10">
         <img
           src={frameone}
           alt="frame"

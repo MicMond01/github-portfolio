@@ -9,6 +9,7 @@ import NavigationBarM from "../components/navigation/NavigationBarM";
 import Copilot from "../components/home/Copilot";
 import Productivity from "../components/home/Productivity";
 import CodeEditor from "../components/home/editor/CodeEditor";
+import FixedNavBar from "../components/fixed navigation/FixedNavBar";
 
 const Home = () => {
   return (
@@ -22,8 +23,9 @@ const Home = () => {
           <NavigationBar />
           <NavigationBarM />
         </div>
-        <div className="container-xl">
+        <div className="container-xl  pr-4">
           <Copilot />
+          <FixedNavBar />
           <Productivity />
           <CodeEditor />
         </div>

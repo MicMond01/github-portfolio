@@ -9,9 +9,9 @@ gsap.config({ trialWarn: false });
 
 const Productivity = () => {
   return (
-    <div className="bg-[#0D1117]">
-      <div className="flex columns-2 ">
-        <div className=" flex flex-col  pointer-events-none w-[8.33%]  relative   top-20 md:-top-10 items-center">
+    <div className="bg-[#0D1117] relative container-xl ">
+      <div className="flex  ">
+        <div className=" flex flex-col  pointer-events-none w-[8.33%]  relative   items-center">
           <div className=" my-4 home-campaign-glowing-icon ">
             <div className="relative inline-block z-1">
               <svg
@@ -45,7 +45,7 @@ const Productivity = () => {
           ></div>
         </div>
 
-        <div className=" productivity-textArea relative mb-10 text-left w-[91.6%]">
+        <div className=" productivity-textArea relative mb-10 mt-4 text-left w-[91.6%]">
           <div className="col-11 col-lg-9 ml-2 ml-md-0 mb-6 mb-md-10">
             <div className="h2-animation-container">
               <h2

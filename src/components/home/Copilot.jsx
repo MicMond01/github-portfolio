@@ -51,7 +51,7 @@ const Copilot = () => {
       </div>
 
       <div className="relative text-left z-[1]    top-8 pt-32 mx:mt-32 mt-72  w-[91.6%]">
-        <div className="flex items-center justify-startborder-solid border-[#424B5B] border-2 max-w-[475px] rounded-[100px] px-[16px] py-[12px]  mb-6 bg-gradient-to-r from-[rgba(1,1,1,0.6)] via-[rgba(1,1,1,0.461139)] to-[rgba(1,1,1,0)] ">
+        <div className="flex items-center justify-start border-solid border-[#424B5B] border-2 max-w-[475px] rounded-[100px] px-[16px] py-[12px]  mb-6 bg-gradient-to-r from-[rgba(1,1,1,0.6)] via-[rgba(1,1,1,0.461139)] to-[rgba(1,1,1,0)] ">
           <img
             src={eyebrow}
             alt="eyebrow"

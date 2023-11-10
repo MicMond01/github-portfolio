@@ -21,6 +21,10 @@ html {
   line-height: 1.5;
 }
 
+.active-scroll-spy {
+  color: yellowgreen;
+}
+
 .home-background {
   right: -1050px;
   max-width: calc(230vw + 1670px);
@@ -209,8 +213,6 @@ html {
   font-weight: 400;
   /* width: 80%; */
 }
-
-
 
 .home-campaign-glowing-icon,
 .home-campaign-glowing-icon-glow {

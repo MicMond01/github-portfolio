@@ -9,7 +9,7 @@ gsap.config({ trialWarn: false });
 
 const Productivity = () => {
   return (
-    <div className="bg-[#0D1117] relative container-xl ">
+    <div id="productivity" className="bg-[#0D1117] relative container-xl ">
       <div className="flex  ">
         <div className=" flex flex-col  pointer-events-none w-[8.33%]  relative   items-center">
           <div className=" my-4 home-campaign-glowing-icon ">

@@ -5,6 +5,7 @@ import customTheme from "./theme/customTheme";
 // import { ScrollTrigger } from "gsap/all";
 // import gsap from "gsap";
 import { useRef } from "react";
+import LayoutContext from "./hooks/LayoutContext";
 
 // gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 

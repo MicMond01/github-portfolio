@@ -9,8 +9,9 @@ import NavigationBarM from "../components/navigation/NavigationBarM";
 import Copilot from "../components/home/Copilot";
 import Productivity from "../components/home/Productivity";
 import CodeEditor from "../components/home/editor/CodeEditor";
-import FixedNavBar from "../components/fixed navigation/FixedNavBar";
+// import FixedNavBar from "../components/fixed navigation/FixedNavBar";
 import ScrollSpy from "react-ui-scrollspy";
+import CodeEditor2 from "../components/home/CodeEditor2";
 
 const Home = () => {
   return (
@@ -25,12 +26,11 @@ const Home = () => {
           <NavigationBarM />
         </div>
         <div className="container-xl  pr-4">
-          <ScrollSpy>
-            <Copilot />
-            <FixedNavBar />
-            <Productivity />
-            <CodeEditor />
-          </ScrollSpy>
+          <Copilot />
+          {/* <FixedNavBar /> */}
+          <Productivity />
+          <CodeEditor />
+          <CodeEditor2 />
         </div>
       </div>
     </PrimaryBackground>

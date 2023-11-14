@@ -1,12 +1,14 @@
 import React from "react";
-import EditorNavInput from "./EditorNavInput";
-import EditorTab from "./EditorTab";
-import ConsoleTab from "./ConsoleTab";
-import EditorDisplayNav from "./EditorDisplayNav";
+// import EditorNavInput from "./EditorNavInput";
+// import EditorTab from "./EditorTab";
+// import ConsoleTab from "./ConsoleTab";
+// import EditorDisplayNav from "./EditorDisplayNav";
+import copilotEditor from "../../../assets/images/illu-copilot-editor-6474457a5b19.png";
 
 const CodeEditor = () => {
   return (
-    <div className="box-shadow-active-border-inverse-mktg rounded-lg w-full bg-[#161b22] border-l border-solid border-[#30363d] overflow-hidden relative ">
+    <div>
+      {/* <div className="box-shadow-active-border-inverse-mktg rounded-lg w-full bg-[#161b22] border-l border-solid border-[#30363d] overflow-hidden relative ">
       <div className="editor-nav flex w-full items-center justify-between border-b border-solid border-[#30363d] p-4">
         <div className="editor-angles block mx:hidden ">
           <svg
@@ -104,6 +106,18 @@ const CodeEditor = () => {
           </div>
         </div>
       </div>
+    </div> */}
+
+      <img
+        alt=""
+        aria-hidden="true"
+        width="2496"
+        height="1302"
+        className="w-full d-block h-auto relative z-[2]  rounded-lg border-solid border-[#30363d] border js-build-in-item build-in-slideX-right build-in-animate"
+        loading="lazy"
+        decoding="async"
+        src={copilotEditor}
+      />
     </div>
   );
 };

@@ -44,7 +44,7 @@ const CodeEditor2 = () => {
         ></img>
       </div>
 
-      <div className="relative text-left z-[1]  mx:ml-2 ml-10 w-[91.6%]">
+      <div className="relative text-left   mx:ml-2 ml-16 w-[91.6%]">
         <div className="flex river-mktg js-build-in-trigger  gutter gutter-spacious lg:my-12 my-16 md:my-12  relative flex-md-items-center mx:items-center flex-row mx:flex-col mx:pb-6 pb-12 build-in-animate">
           <CodeEditor2Top />
         </div>

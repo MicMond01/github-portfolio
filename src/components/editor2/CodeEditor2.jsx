@@ -1,5 +1,6 @@
 import React from "react";
 import CodeEditor2Top from "./CodeEditor2Top";
+import CodeEditor2Bottom from "./CodeEditor2Bottom";
 
 const CodeEditor2 = () => {
   return (
@@ -18,7 +19,7 @@ const CodeEditor2 = () => {
 
       <div className=" flex flex-col  pointer-events-none w-[8.33%]  relative   items-center">
         <div
-          className="home-campaign-git-line h-[20rem] relative z-[1] js-build-in-item build-in-scale-top build-in-animate"
+          className="home-campaign-git-line h-full relative z-[1] js-build-in-item build-in-scale-top build-in-animate"
           style={{
             transitionDuration: "900ms",
             background:
@@ -37,7 +38,7 @@ const CodeEditor2 = () => {
             maxWidth: "9vw",
             transitionDelay: "100ms",
           }}
-          className="md:hidden block absolute bottom-6 js-build-in-item build-in-scale-fade build-in-animate"
+          className="mx:hidden block absolute bottom-6 js-build-in-item build-in-scale-fade build-in-animate"
           loading="lazy"
           decoding="async"
           src="https://github.githubassets.com/assets/git-branch-productivity-c304b83d09c7.svg"
@@ -47,6 +48,9 @@ const CodeEditor2 = () => {
       <div className="relative text-left   mx:ml-2 ml-16 w-[91.6%]">
         <div className="flex river-mktg js-build-in-trigger  gutter gutter-spacious lg:my-12 my-16 md:my-12  relative flex-md-items-center mx:items-center flex-row mx:flex-col mx:pb-6 pb-12 build-in-animate">
           <CodeEditor2Top />
+        </div>
+        <div className="mx:mb-10 mb-12 pb-6">
+          <CodeEditor2Bottom />
         </div>
       </div>
     </div>

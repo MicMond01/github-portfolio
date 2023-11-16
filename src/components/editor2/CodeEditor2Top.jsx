@@ -4,7 +4,7 @@ const CodeEditor2Top = () => {
   return (
     <>
       <div
-        className="mx:w-full w-1/2 py-3 mb-2 js-build-in-item  text-left  build-in-slideX-right build-in-animate"
+        className="mx:w-full  mx:mt-8 w-1/2 py-3 mb-2 js-build-in-item  text-left  build-in-slideX-right build-in-animate"
         style={{ transitionDelay: "0ms" }}
       >
         <div className="pr-6 mx:pr-0">
@@ -66,7 +66,7 @@ const CodeEditor2Top = () => {
           </div>
 
           <div
-            className="js-build-in-item build-in-slideX-right overflow-hidden rounded-lg absolute right-4 bottom-4 bottom-sm-0 z-1 mx:block hidden  build-in-animate"
+            className="js-build-in-item build-in-slideX-right overflow-hidden rounded-lg absolute right-4 bottom-36 sm:bottom-[15rem] xsm:bottom-[17rem] z-10 mx:block hidden  build-in-animate"
             style={{ maxWidth: "60%", transitionDelay: "200ms" }}
           >
             <img

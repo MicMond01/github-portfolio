@@ -646,9 +646,9 @@ html {
   margin-left: -24px;
 }
 
-.gutter {
-  margin-right: -16px;
-  margin-left: -16px;
+.gutter > [class*="col-"] {
+  padding-right: 16px !important;
+  padding-left: 16px !important;
 }
 
 .build-in-slideX-right {

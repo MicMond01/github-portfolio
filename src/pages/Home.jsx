@@ -13,6 +13,7 @@ import CodeEditor from "../components/home/editor/CodeEditor";
 import ScrollSpy from "react-ui-scrollspy";
 import CodeEditor2 from "../components/editor2/CodeEditor2";
 import GithubActionContainer from "../components/githubAction/GithubActionContainer";
+import CodeEnvironment from "../components/code environment/CodeEnvironment";
 
 const Home = () => {
   return (
@@ -26,13 +27,14 @@ const Home = () => {
           <NavigationBar />
           <NavigationBarM />
         </div>
-        <div className="container-xl  pr-4 pb-20">
+        <div className="container-xl  pb-20">
           <Copilot />
           {/* <FixedNavBar /> */}
           <Productivity />
           <CodeEditor />
           <CodeEditor2 />
           <GithubActionContainer />
+          <CodeEnvironment />
           
         </div>
       </div>

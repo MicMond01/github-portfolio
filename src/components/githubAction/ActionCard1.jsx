@@ -9,7 +9,7 @@ const ActionCard1 = () => {
       </p>
 
       <div>
-        <a
+        <button
           className="link-mktg text-semibold color-fg-default py-1 f3-mktg"
           href="#"
         >
@@ -34,7 +34,7 @@ const ActionCard1 = () => {
               strokeLinecap="round"
             ></path>
           </svg>
-        </a>
+        </button>
       </div>
     </div>
   );

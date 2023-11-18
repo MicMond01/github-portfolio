@@ -22,7 +22,7 @@ const CodeEditor2Bottom = () => {
       <p className="mb-4 f2-mktg font-medium lg:max-w-[41.25rem] max-w-[40.5rem] text-white">
         in developer productivity after three years with GitHub
       </p>
-      <a className="link-mktg font-semibold text-white py-1 f3-mktg" href="#">
+      <div className="link-mktg font-semibold text-white py-1 f3-mktg" href="#">
         Read the report{" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const CodeEditor2Bottom = () => {
             strokeLinecap="round"
           ></path>
         </svg>
-      </a>
+      </div>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const GithubMobile = () => {
 
             <div>
               {" "}
-              <a
+              <div
                 className="link-mktg font-semibold color-fg-default py-1 f3-mktg"
                 href="#"
               >
@@ -35,15 +35,15 @@ const GithubMobile = () => {
                     className="octicon-chevrow-stem"
                     stroke="currentColor"
                     d="M1.75 8H11"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
                   ></path>
                 </svg>
-              </a>
+              </div>
             </div>
           </div>
 
-          <div class="overflow-hidden rounded-ee-lg rounded-bottom-3">
+          <div className="overflow-hidden rounded-ee-lg rounded-bottom-3">
             <picture>
               <source
                 srcSet={`${illuMobile}?width=1208&amp;format=webpll 1208w,${illuMobile}?width=966&amp;format=webpll 966w,${illuMobile}?width=724&amp;format=webpll 724w,${illuMobile}?width=604&amp;format=webpll 604w,${illuMobile}?width=483&amp;format=webpll 483w,${illuMobile}?width=241&amp;format=webpll 241w`}

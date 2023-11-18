@@ -31,6 +31,24 @@
   --mktg-accent-primary: #3fb950;
   --color-canvas-default: #0d1117;
   --color-canvas-subtle: #161b22;
+  --color-success-fg: #3fb950;
+  --color-neutral-emphasis-plus: #6e7681;
+
+  --h00-size-mobile: 2.5rem;
+  --h0-size-mobile: 2rem;
+  --h1-size-mobile: 1.625rem;
+  --h2-size-mobile: 1.375rem;
+  --h3-size-mobile: 1.125rem;
+  --h00-size: 3rem;
+  --h0-size: 2.5rem;
+  --h1-size: 2rem;
+  --h2-size: 1.5rem;
+  --h3-size: 1.25rem;
+  --h4-size: 1rem;
+  --h5-size: 0.875rem;
+  --h6-size: 0.75rem;
+  --body-font-size: 0.875rem;
+  --font-size-small: 0.75rem;
 }
 
 html {
@@ -43,8 +61,24 @@ html {
   color: white;
 }
 
+.f5 {
+  font-size: var(--h5-size, 14px) !important;
+}
+
+.f6 {
+  font-size: var(--h6-size, 12px) !important;
+}
+
 .active-scroll-spy {
   color: yellowgreen;
+}
+
+.color-fg-success {
+  color: var(--color-success-fg) !important;
+}
+
+.color-bg-emphasis {
+  background-color: var(--color-neutral-emphasis-plus) !important;
 }
 
 .home-background {
@@ -245,7 +279,7 @@ html {
   display: inline-block;
   overflow: visible !important;
   vertical-align: text-bottom;
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 .color-fg-muted {
@@ -641,10 +675,10 @@ html {
   width: 2px;
 }
 
-.gutter-spacious {
+/* .gutter-spacious {
   margin-right: -24px;
   margin-left: -24px;
-}
+} */
 
 .gutter > [class*="col-"] {
   padding-right: 16px !important;
@@ -780,4 +814,46 @@ h3.override-h1-mktg {
 .rounded-right-3 {
   border-top-right-radius: var(--borderRadius-medium, 8px) !important;
   border-bottom-right-radius: var(--borderRadius-medium, 8px) !important;
+}
+
+.circle {
+  border-radius: var(--borderRadius-full, 50%) !important;
+}
+
+/* .gutter-spacious {
+  margin-right: -24px;
+  margin-left: -24px;
+} */
+
+.gutter-spacious > [class*="col-"] {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.box-shadow-mktg-xl {
+  box-shadow: 0 2.74416px 2.74416px rgba(0, 0, 0, 0.0274351),
+    0 5.48831px 5.48831px rgba(0, 0, 0, 0.0400741),
+    0 13.7208px 10.9766px rgba(0, 0, 0, 0.0499982),
+    0 20.5812px 20.5812px rgba(0, 0, 0, 0.0596004),
+    0 41.1623px 41.1623px rgba(0, 0, 0, 0.0709366),
+    0 96.0454px 89.1851px rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 868px) {
+  .home-campaign-ghas-connect {
+    top: -19px;
+    left: 36px;
+    width: 60px;
+    transform: rotate(90deg) !important;
+  }
+}
+
+@media (min-width: 868px) {
+  .home-campaign-ghas-connect {
+    top: 64px;
+    left: 50%;
+    width: auto;
+    margin-left: -28px;
+    transform: none !important;
+  }
 }

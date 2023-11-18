@@ -15,7 +15,7 @@ const GithubCodespace = () => {
 
             <div>
               {" "}
-              <a
+              <div
                 className="link-mktg font-semibold color-fg-default py-1 f3-mktg"
                 href="#"
               >
@@ -36,11 +36,11 @@ const GithubCodespace = () => {
                     className="octicon-chevrow-stem"
                     stroke="currentColor"
                     d="M1.75 8H11"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
                   ></path>
                 </svg>
-              </a>
+              </div>
             </div>
           </div>
 

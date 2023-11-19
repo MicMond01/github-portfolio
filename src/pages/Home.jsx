@@ -17,6 +17,8 @@ import CodeEnvironment from "../components/code environment/CodeEnvironment";
 import LineAnimi from "../components/LineAnimi";
 import AppSecurityHero from "../components/application security/application security hero/AppSecurityHero";
 import AppSecurityCS from "../components/application security/app security card-skew/AppSecurityCS";
+import AdvancedSecurity from "../components/application security/advanced security/AdvancedSecurity";
+import CodeScanning from "../components/application security/code scanning/CodeScanning";
 
 const Home = () => {
   return (
@@ -43,6 +45,8 @@ const Home = () => {
         <div className="container-xl  pb-20 application-security">
           <AppSecurityHero />
           <AppSecurityCS />
+          <AdvancedSecurity />
+          <CodeScanning />
         </div>
       </div>
     </PrimaryBackground>

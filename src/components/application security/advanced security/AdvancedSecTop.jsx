@@ -1,7 +1,8 @@
 import React from "react";
-import illuCopilotSidebar from "../../assets/images/illu-copilot-sidebar-3d2efb504577.png";
+import bgGlowBlue from "../../../assets/images/bg-glow-blue-036b8dc2d1ce.png";
+import illuGhasList from "../../../assets//images/illu-ghas-list-84af1f1ce2b8.png";
 
-const CodeEditor2Top = () => {
+const AdvancedSecTop = () => {
   return (
     <>
       <div
@@ -10,9 +11,9 @@ const CodeEditor2Top = () => {
       >
         <div className="pr-6 mx:pr-0">
           <h2 className=" mb-4 f2-mktg color-fg-muted">
-            <em className="text-white">GitHub Copilot </em> empowers developers
-            to complete tasks 55% faster with contextualized AI coding
-            assistance across workflows.
+            <em className="text-white">GitHub Advanced Security </em> enables
+            you to find and fix vulnerabilities with ease and ship secure code
+            quickly.
           </h2>
 
           <a
@@ -20,7 +21,7 @@ const CodeEditor2Top = () => {
             href="/features/copilot"
             data-analytics-event='{"category":"Explore GitHub Copilot","action":"click to Explore GitHub Copilot","label":"ref_cta:Explore GitHub Copilot;"}'
           >
-            Explore GitHub Copilot{" "}
+            ive into GitHub Advanced Security{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="octicon arrow-symbol-mktg"
@@ -45,33 +46,34 @@ const CodeEditor2Top = () => {
         </div>
       </div>
 
-      <div className="relative mx:w-full w-1/2">
-        <div className="flex flex-col relative">
-          <div
-            className="js-build-in-item build-in-slideX-right  overflow-hidden rounded-lg relative z-[10] mx:hidden block build-in-animate"
-            style={{
-              maxWidth: "480px",
-              marginTop: "-80%",
-              transitionDelay: "100ms",
-            }}
-          >
-            <img
-              src={illuCopilotSidebar}
-              loading="lazy"
-              width="960"
-              height="1222"
-              alt=""
-              decoding="async"
-              className="w-full block h-auto"
-            />
-          </div>
+      <div className="relative col-12 py-4 mx:w-full w-1/2">
+        <div className=" relative">
+          <div className="flex flex-col relative">
+            <div
+              className="overflow-hidden borderNew left-10 rounded-lg relative z-[10] "
+              style={{
+                maxWidth: "541px",
+                marginTop: "-30%",
+                transitionDelay: "100ms",
+              }}
+            >
+              <img
+                src={illuGhasList}
+                loading="lazy"
+                width="960"
+                height="1222"
+                alt=""
+                decoding="async"
+                className="w-full block h-auto"
+              />
+            </div>
 
-          <div
+            {/* <div
             className="js-build-in-item build-in-slideX-right overflow-hidden rounded-lg absolute right-4 bottom-36 sm:bottom-[15rem] xsm:bottom-[17rem] z-10 mx:block hidden  build-in-animate"
             style={{ maxWidth: "60%", transitionDelay: "200ms" }}
           >
             <img
-              src={illuCopilotSidebar}
+              //   src={illuCopilotSidebar}
               loading="lazy"
               width="960"
               height="1222"
@@ -79,26 +81,25 @@ const CodeEditor2Top = () => {
               decoding="async"
               className="w-full block h-auto"
             />
-          </div>
+          </div> */}
 
-          <div></div>
-          <img
-            alt=""
-            aria-hidden="true"
-            className="absolute mx:hidden block max-w-[1000px] w-[1000px] max-h-[1000px] events-none js-build-in-item build-in-fade build-in-animate z-1"
-            style={{
-              bottom: "-300px",
-              right: "-200px",
-              transitionDelay: "300ms",
-            }}
-            loading="lazy"
-            decoding="async"
-            src="https://github.githubassets.com/assets/bg-glow-purple-6e9a6a96cb04.png"
-          />
+            <img
+              alt=""
+              aria-hidden="true"
+              className="max-w-[1000px] w-[1000px] h-[1000px] absolute mx:hidden block  events-none z-1"
+              style={{
+                bottom: "-160px",
+                right: "-220px",
+              }}
+              loading="lazy"
+              decoding="async"
+              src={bgGlowBlue}
+            />
+          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default CodeEditor2Top;
+export default AdvancedSecTop;
